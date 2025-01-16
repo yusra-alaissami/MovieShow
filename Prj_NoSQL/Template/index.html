@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to MovieShow</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #121212;
+            color: white;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .welcome-title {
+            font-size: 80px; /* Texte plus grand */
+            font-weight: bold; /* Gras */
+            color: #e50914; /* Couleur rouge */
+            text-transform: uppercase; /* Tout en majuscule */
+            margin-bottom: 30px;
+        }
+        .welcome-message {
+            font-size: 20px;
+            color: #b3b3b3;
+            margin-bottom: 50px;
+        }
+        .start-button {
+            padding: 15px 30px;
+            font-size: 20px;
+            font-weight: bold;
+            text-transform: uppercase;
+            border: none;
+            border-radius: 5px;
+            background-color: #e50914;
+            color: white;
+            cursor: pointer;
+            text-decoration: none;
+            transition: transform 0.3s, background-color 0.3s;
+        }
+        .start-button:hover {
+            transform: scale(1.1); /* Zoom au survol */
+            background-color: #d10813; /* Couleur légèrement plus sombre */
+        }
+    </style>
+</head>
+<body>
+    <div class="welcome-title">Welcome to MovieShow</div>
+    <div class="welcome-message">Discover movies you'll love. Start your journey now!</div>
+    <a href="interface.html" class="start-button">Get Started</a>
+</body>
+</html>
